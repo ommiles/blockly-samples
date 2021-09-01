@@ -1,12 +1,12 @@
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  height: 6vmin;
   pointer-events: none;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 50vh;
+  min-height: 8vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,6 +17,28 @@
 
 .App-link {
   color: #61dafb;
+}
+
+p {
+  color: #61dafb;
+  font-size: .55em;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+button {
+  color: #61dafb;
+  text-transform: uppercase;
+  font-size: .55em;
+  padding: 0;
+  cursor: pointer;
+  outline: transparent;
+  border: transparent;
+  background-color: transparent;
+}
+
+button:hover {
+  color: #fff;
 }
 
 @keyframes App-logo-spin {

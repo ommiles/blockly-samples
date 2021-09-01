@@ -50,8 +50,11 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <button onClick={this.generateCode}>Convert</button>
+          <div style={{ display: 'flex' }} >
+            <p>React & Blocky</p>
+            <img src={logo} className="App-logo" alt="logo" />
+            <button onClick={this.generateCode}>Click to Convert</button>
+          </div>
           <BlocklyComponent ref={this.simpleWorkspace}
           readOnly={false} trashcan={true} media={'media/'}
           move={{
